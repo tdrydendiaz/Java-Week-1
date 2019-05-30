@@ -1,0 +1,6 @@
+
+public class Motorbike extends Vehicle {
+	private String Coolness;
+	private int noDoors;
+
+}

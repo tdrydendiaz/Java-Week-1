@@ -1,0 +1,33 @@
+
+public class Motorbike extends Vehicle {
+	private String Coolness;
+	private int noDoors;
+
+	public Motorbike(int noOfDoors, int noOfPassengers, int noOfWheels, int sizeOfEngine, int noOfLights,
+			String registrationNo) {
+		super(noOfWheels, sizeOfEngine, noOfLights, registrationNo);
+		this.Coolness = Coolness;
+		this.noDoors = noDoors;
+
+	}
+
+	public Motorbike() {
+	}
+
+	public String getCoolness() {
+		return Coolness;
+	}
+
+	public void setCoolness(String coolness) {
+		Coolness = coolness;
+	}
+
+	public int getNoDoors() {
+		return noDoors;
+	}
+
+	public void setNoDoors(int noDoors) {
+		this.noDoors = noDoors;
+	}
+
+}

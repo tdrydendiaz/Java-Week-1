@@ -1,0 +1,41 @@
+
+public class Maps extends Items implements CRUD {
+	
+	private int pages;
+	private String regions;
+	private String symbols;
+
+	public Maps(int pages, String regions, String symbols) {
+		super(name);
+		this.pages = pages;
+		this.regions = regions;
+		this.symbols = symbols;
+	}
+	
+	public Maps();
+
+	public void setPages(int pages) {
+		this.pages = pages;
+	}
+
+	public String getRegions() {
+		return regions;
+	}
+
+	public void setRegions(String regions) {
+		this.regions = regions;
+	}
+
+	public String getSymbols() {
+		return symbols;
+	}
+
+	public void setSymbols(String symbols) {
+		this.symbols = symbols;
+	}
+
+	
+
+	}
+
+}

@@ -1,0 +1,4 @@
+1558623125936	Rename type 'Books'
+1558624594607	Encapsulate field 'academic'
+1558624600041	Encapsulate field 'longRead'
+1558698807100	Rename local variable 'o'

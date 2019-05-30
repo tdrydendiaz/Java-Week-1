@@ -1,0 +1,29 @@
+
+public class Person {
+	public String name;
+	public int age;
+	public String jobTitle;
+
+	public Person(String name, String jobTitle) {
+		this.name = name;
+		this.jobTitle = jobTitle;
+
+	}
+
+	public Person(String name, String jobTitle, int age) {
+		this.name = name;
+		this.jobTitle = jobTitle;
+		this.age = age;
+	}
+
+	public Person(int age) {
+		this.age = age;
+
+	}
+
+	public String Me() {
+		return "My name is " + name + " my age is " + age + " and my occupation is " + jobTitle;
+
+	}
+
+}

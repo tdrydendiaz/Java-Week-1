@@ -1,0 +1,8 @@
+
+public class Bus {
+
+	private String BusCompany;
+	
+	
+	
+}

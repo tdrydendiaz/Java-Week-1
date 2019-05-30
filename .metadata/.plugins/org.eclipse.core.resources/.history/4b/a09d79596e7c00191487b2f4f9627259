@@ -1,0 +1,18 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		Person Tania = new Person();
+		Tania.name = "Tania";
+		Tania.age = 24;
+		Tania.jobTitle = "Singer";
+
+		// Create a List Implementation and store those object inside
+
+	}
+
+	private void fill
+
+	Array () {
+}

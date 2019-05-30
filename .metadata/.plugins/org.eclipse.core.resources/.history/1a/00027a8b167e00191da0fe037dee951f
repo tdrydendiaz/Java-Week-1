@@ -1,0 +1,7 @@
+import java.util.ArrayList;
+
+public class Inventory {
+
+	public ArrayList<Items> bookList = new ArrayList<Items>();
+
+}

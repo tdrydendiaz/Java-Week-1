@@ -1,0 +1,35 @@
+
+public class Runner {
+	public static void main(String[] args) {
+
+		Bus b = new Bus();
+
+		b.weeklyPetrol();
+
+		Motorbike m = new Motorbike();
+		m.crashing();
+
+		Vehicle v1 = new Vehicle(4, 2, 4, "YW56FR");
+		Vehicle v2 = new Vehicle(3, 2, 1, "T45DR2");
+		Vehicle v3 = new Vehicle(2, 6, 2, "OSD79");
+		System.out.println(v1.toString());
+
+		Garage g1 = new Garage();
+		g1.vehicleStats.add(v1);
+		g1.vehicleStats.add(v2);
+		g1.vehicleStats.add(v3);
+
+		System.out.println(g1.vehicleStats.get(0).getNoOfLights() + ", " + g1.vehicleStats.get(0).getRegistrationNo()
+				+ "," + g1.vehicleStats.get(0).getNoOfWheels() + "," + g1.vehicleStats.get(0).getSizeOfEngine());
+
+		System.out.println(g1.vehicleStats.get(0).getNoOfLights() + ", " + g1.vehicleStats.get(0).getRegistrationNo()
+				+ "," + g1.vehicleStats.get(0).getNoOfWheels() + "," + g1.vehicleStats.get(0).getSizeOfEngine());
+
+		for (Vehicle no : g1.vehicleStats) {
+			String s = "";
+			s = s + no.getNoOfLights() + "," + no.getNoOfWheels() + no.getRegistrationNo() + no.getSizeOfEngine();
+			System.out.println(s);
+		}
+	}
+
+}

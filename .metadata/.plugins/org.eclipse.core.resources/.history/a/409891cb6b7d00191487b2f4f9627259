@@ -1,0 +1,5 @@
+
+public class Journals {
+	private String academic;
+
+}

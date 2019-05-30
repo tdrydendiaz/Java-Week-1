@@ -1,0 +1,9 @@
+
+public class Motorbike {
+ private String Coolness;
+ private int noDoors;
+ 
+
+ 
+ 
+}

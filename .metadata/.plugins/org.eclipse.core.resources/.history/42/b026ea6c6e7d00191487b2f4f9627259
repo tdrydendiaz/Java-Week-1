@@ -1,0 +1,41 @@
+
+public class Book extends Items implements CRUD {
+
+	private int pages;
+	private String author;
+	private String date;
+	private String genre;
+
+	public Book(int pages, String author, String date, String genre) {
+		super(name);
+		this.pages = pages;
+		this.author = author;
+		this.date = date;
+		this.genre = genre;
+
+	}
+
+	@Override
+	public void create() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void read() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+
+	}
+}

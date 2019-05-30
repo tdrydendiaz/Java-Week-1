@@ -1,0 +1,22 @@
+
+public class Car extends Vehicle {
+	public int getNoOfDoors() {
+		return noOfDoors;
+	}
+
+	public void setNoOfDoors(int noOfDoors) {
+		this.noOfDoors = noOfDoors;
+	}
+
+	public int getNoOfPassengers() {
+		return noOfPassengers;
+	}
+
+	public void setNoOfPassengers(int noOfPassengers) {
+		this.noOfPassengers = noOfPassengers;
+	}
+
+	private int noOfDoors;
+	private int noOfPassengers;
+
+}

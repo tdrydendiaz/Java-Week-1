@@ -1,0 +1,16 @@
+
+public class Book {
+
+	private int pages;
+	private String author;
+	private String date;
+	private String genre;
+
+	public Book(int pages, String author, String date, String genre) {
+		this.pages = pages;
+		this.author = author;
+		this.date = date;
+		this.genre = genre;
+
+	}
+}

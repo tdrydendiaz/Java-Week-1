@@ -1,0 +1,44 @@
+
+public class Journals implements CRUD {
+	private String academic;
+	private String longRead;
+
+	@Override
+	public void create() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void read() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+
+	}
+
+	/**
+	 * @return the academic
+	 */
+	public String getAcademic() {
+		return academic;
+	}
+
+	/**
+	 * @param academic the academic to set
+	 */
+	public void setAcademic(String academic) {
+		this.academic = academic;
+	}
+
+}

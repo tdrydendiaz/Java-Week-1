@@ -1,0 +1,15 @@
+
+public class Maps extends Items{
+	private int pages;
+	private String regions;
+	private String symbols;
+
+	public Maps(int pages, String regions, String symbols) {
+		super(name);
+		this.pages = pages;
+		this.regions = regions;
+		this.symbols = symbols;
+
+	}
+
+}

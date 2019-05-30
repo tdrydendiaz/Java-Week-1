@@ -1,0 +1,8 @@
+
+public interface CRUD {
+
+	public void update();
+
+	public void delete();
+
+}

@@ -1,0 +1,8 @@
+
+public class Car {
+	private int noOfDoors;
+	private int noOfPassengers;
+	
+	
+
+}

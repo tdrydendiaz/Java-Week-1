@@ -1,0 +1,19 @@
+
+public class Questions {
+
+	public static void main(String[] args) {
+
+		System.out.println(checkword("Hello World"));
+
+	}
+
+	// A method that takes a word. When the word is of an even length, display the
+	// first part. When the word is an odd length, display the middle letter.
+
+	public static String checkword(String word) {
+		if (word.length() % 2 == 0) {
+			return (word.substring(0, word.length() / 2));
+		} else
+			return (word.substring(word.length() / 2, word.length() / 2 + 1));
+	}
+}

@@ -1,0 +1,32 @@
+
+public class Bus extends Vehicle {
+
+	// attributes
+	private String BusCompany;
+	private int length;
+
+	public Bus(String BusCompany);
+
+	// getters&setters
+	public String getBusCompany() {
+		return BusCompany;
+	}
+
+	public void setBusCompany(String busCompany) {
+		BusCompany = busCompany;
+	}
+
+	public int getLength() {
+		return length;
+	}
+
+	public void setLength(int length) {
+		this.length = length;
+	}
+
+	// methods
+	public void weeklyPetrol() {
+		System.out.println("I use a lot of petrol");
+	}
+
+}

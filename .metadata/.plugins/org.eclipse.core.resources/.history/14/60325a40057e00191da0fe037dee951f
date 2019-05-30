@@ -1,0 +1,42 @@
+import java.util.HashMap;
+
+public class Code {
+
+	public static void main(String[] args) {
+		
+		HashMap<String,String> map = new Hashmap <>();
+	map.put(".-","A");
+	map.put("-...","B");
+	map.put("-.-.","C");
+	map.put("-..","D");
+	map.put(".","E");
+	map.put("..-.","F");
+	map.put("--.","G");
+	map.put("....","H");
+	map.put("..","I");
+	map.put(".---","J");
+	map.put("-.-","K");
+	map.put(".-..","L");
+	map.put("--","M");
+	map.put("-.","N");
+	map.put("---","O");
+	map.put(".--.","P");
+	map.put(" --.-","Q");
+	map.put(".-.","R");
+	map.put("....","H");
+	map.put("....","H");
+		
+		
+		S  ...
+		T  -
+		U  ..-
+		V  ...-
+		W  .--
+		X  -..-
+		Y  -.--
+		Z  --..
+		
+
+	}
+
+}

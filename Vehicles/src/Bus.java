@@ -1,0 +1,40 @@
+
+public class Bus extends Vehicle {
+
+	// attributes
+	private String BusCompany;
+	private int length;
+
+	public Bus(int noOfWheels, int sizeOfEngine, int noOfLights, String registrationNo, String BusCompany, int length) {
+		super(noOfWheels, sizeOfEngine, noOfLights, registrationNo);
+		this.BusCompany = BusCompany;
+		this.length = length;
+
+	}
+
+	public Bus() {
+	}
+
+	// getters&setters
+	public String getBusCompany() {
+		return BusCompany;
+	}
+
+	public void setBusCompany(String busCompany) {
+		BusCompany = busCompany;
+	}
+
+	public int getLength() {
+		return length;
+	}
+
+	public void setLength(int length) {
+		this.length = length;
+	}
+
+	// methods
+	public void weeklyPetrol() {
+		System.out.println("I use a lot of petrol");
+	}
+
+}

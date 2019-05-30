@@ -1,0 +1,11 @@
+
+public class Journals implements CRUD {
+	private String academic;
+
+	@Override
+	public void create() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Mammals extends Animal {
+	private String colourOfHair;
+
+	public String getColourOfHair() {
+		return colourOfHair;
+	}
+
+	public void setColourOfHair(String colourOfHair) {
+		this.colourOfHair = colourOfHair;
+	}
+}

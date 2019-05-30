@@ -1,0 +1,14 @@
+
+public class Maps {
+	private int pages;
+	private String regions;
+	private String symbols;
+
+	public Maps(int pages, String regions, String symbols) {
+		this.pages = pages;
+		this.regions = regions;
+		this.symbols = symbols;
+
+	}
+
+}

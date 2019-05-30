@@ -1,0 +1,37 @@
+
+public class Bird extends Animals {
+
+	private String colourOfWings;
+	private String colourOfBeak;
+	private int wingspan;
+
+	public String getColourOfWings() {
+		return colourOfWings;
+	}
+
+	public void setColourOfWings(String colourOfWings) {
+		this.colourOfWings = colourOfWings;
+	}
+
+	public String getColourOfBeak() {
+		return colourOfBeak;
+	}
+
+	public void setColourOfBeak(String colourOfBeak) {
+		this.colourOfBeak = colourOfBeak;
+	}
+
+	public int getWingspan() {
+		return wingspan;
+	}
+
+	public void setWingspan(int wingspan) {
+		this.wingspan = wingspan;
+	}
+
+	@Override
+	public void consume() {
+		System.out.println("tuk tuk tuk");
+	}
+
+}

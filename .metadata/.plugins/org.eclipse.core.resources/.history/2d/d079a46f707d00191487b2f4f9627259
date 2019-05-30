@@ -1,0 +1,13 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+
+		Book b1 = new Book("Magic", 20, "Wizard Joe", "May 10th 2010", "Fiction");
+		Book b2 = new Book("How to cook for Dummies", 100, "Gordon Ramsey", "September 2019", "Non-Fiction");
+
+		System.out.println(b1);
+	}
+
+}

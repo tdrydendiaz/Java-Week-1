@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class Garage {
+
+	public ArrayList<Vehicle> vehicleStats = new ArrayList<Vehicle>();
+
+	// for i in vehicleStats
+	//if noOfWheels=4
+	//noOfwheels*50
+	#
+	
+	
+	
+}

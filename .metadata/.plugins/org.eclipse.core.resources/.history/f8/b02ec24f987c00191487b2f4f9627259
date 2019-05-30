@@ -1,0 +1,7 @@
+
+public class Bus extends Vehicle {
+
+	private String BusCompany;
+	private int length;
+
+}

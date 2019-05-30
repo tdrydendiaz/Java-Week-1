@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class PersonManager {
+
+	public ArrayList<Person> personList = new ArrayList<Person>();
+
+	public searchName(String name) {
+
+		return personList.stream().filter(p -> p.equals(name));
+	}
+}

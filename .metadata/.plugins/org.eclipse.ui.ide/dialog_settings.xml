@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="E:\eclipse-workspace\PractiseStrings\src"/>
+		<item value="E:\eclipse-workspace\PractiseStrings"/>
+		<item value="C:\Users\Admin\Downloads\Cohort_9_Java-master\Cohort_9_Java-master\listDelete\src"/>
+		<item value="C:\Users\Admin\Downloads\Cohort_9_Java-master\Cohort_9_Java-master\Day_1_basics\src"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+</section>
